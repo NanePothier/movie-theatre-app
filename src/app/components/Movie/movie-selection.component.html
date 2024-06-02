@@ -1,0 +1,9 @@
+<app-panel>
+  <app-movie-info
+    *ngIf="selectedMovieData && selectionState === selectionStates.INFO"
+    [movie]="selectedMovieData"
+  />
+  <div class="btn-wrapper">
+    <app-button btnTitle="Next" (clickEvent)="handleNext()" />
+  </div>
+</app-panel>

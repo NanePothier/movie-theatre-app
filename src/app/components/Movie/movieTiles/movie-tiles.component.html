@@ -1,0 +1,9 @@
+<div class="content">
+  <div *ngFor="let movie of movies">
+    <app-movie-tile
+      [movieTitle]="movie.title"
+      [movieId]="movie.id"
+      (selectTile)="handleTileSelected($event)"
+    />
+  </div>
+</div>

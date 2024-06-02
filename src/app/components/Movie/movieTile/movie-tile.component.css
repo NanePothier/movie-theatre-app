@@ -1,0 +1,24 @@
+.content {
+  width: 100%;
+  height: 60px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.content:hover {
+  background-color: rgb(94, 29, 155);
+}
+
+.active {
+  background-color: rgb(94, 29, 155);
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+}

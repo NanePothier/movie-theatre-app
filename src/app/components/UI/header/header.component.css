@@ -1,0 +1,14 @@
+.content {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 8px 8px;
+  background-color: #b3c2f2;
+}
+
+.heading {
+  color: #090012;
+  font-size: 3rem;
+}
